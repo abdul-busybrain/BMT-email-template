@@ -89,7 +89,7 @@
                   </div>
                 </div>
                 <h5 style="color: #333; text-align: left; padding: 0 0 0 2rem">
-                  Hello User, Welcome to Book my time
+                  Hello `${User}`, Welcome to BookMytime!
                 </h5>
               </td>
             </tr>
@@ -105,13 +105,13 @@
                   line-height: 1.6;
                 "
               >
-                Hi User, We're excited to let you know that you've landed a new
-                booking on BookMyTime! <br />
+                Hi `${User}`, We're excited to let you know that you've landed a
+                new booking on BookMyTime! <br />
                 <ul>
                   <em>Booking Details</em>
-                  <li><strong>Client Name</strong>: [Client Name]</li>
-                  <li><strong>Date & Time</strong>: [Date] at [Time]</li>
-                  <li><strong> Service</strong>: [Service Name]</li>
+                  <li><strong>Client Name</strong>: `${client-name}`</li>
+                  <li><strong>Date & Time</strong>: `${date}` at `${time}`</li>
+                  <li><strong> Service</strong>: `${service-name}`</li>
                 </ul>
 
                 <a href="https://www.bookmytime.site/">
