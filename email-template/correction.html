@@ -119,7 +119,7 @@
                       "
                     >
                       <a
-                        href="#"
+                        href="${link}"
                         target="_blank"
                         style="
                           color: #fff;
@@ -151,10 +151,10 @@
             <!-- Footer -->
             <tr
               style="
-                display: grid;
-                gap: 3.2rem;
+                display: flex;
+                gap: 1rem;
+                flex-direction: column;
                 padding: 0 4rem;
-                grid-template-columns: 1fr 1fr;
                 background-color: #fff;
               "
             >
@@ -177,11 +177,9 @@
                 "
               >
                 <h3 style="margin-block-start: 0">Get in touch</h3>
-                <a style="color: #000" href="https://www.bookmytime.site/"
-                  >https://www.bookmytime.site</a
-                >
-                <a href="#" style="color: #000">email@bookmytime.site</a>
-                <address>Address:</address>
+                <a style="color: #000" href="${link}">Website: ${link}</a><br />
+                <a href="${link}" style="color: #000">Email: ${email}</a><br />
+                <address>Address: ${link}</address>
               </td>
             </tr>
           </table>
